@@ -6,4 +6,8 @@ export class AppController {
   root(): string {
     return 'Hello World!';
   }
+  @Get('heart')
+  heart(){
+    return 'hearting....'
+  }
 }
